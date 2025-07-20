@@ -39,7 +39,7 @@ import io.github.muntashirakon.io.SplitInputStream;
 import io.github.muntashirakon.io.SplitOutputStream;
 
 public final class TarUtils {
-    public static final long DEFAULT_SPLIT_SIZE = 1024 * 1024 * 1024;
+    public static final long DEFAULT_SPLIT_SIZE = 1024 * 1024 * 1024 * 24L;
 
     @StringDef(value = {
             TAR_GZIP,
