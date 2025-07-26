@@ -1340,6 +1340,10 @@
             android:name=".profiles.ProfileApplierService"
             android:exported="false"
             android:foregroundServiceType="dataSync|specialUse" />
+        <receiver
+            android:name=".profiles.ProfileStarterReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver" />
         <service
             android:name=".logcat.LogcatRecordingService"
             android:exported="false"
