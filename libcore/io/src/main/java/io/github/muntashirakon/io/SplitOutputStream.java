@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SplitOutputStream extends OutputStream {
-    private static final long MAX_BYTES_WRITTEN = 1024 * 1024 * 1024 * 24L;  // 1GB
+    private static final long MAX_BYTES_WRITTEN = 1024 * 1024 * 1024;  // 1GB
 
     private final List<OutputStream> mOutputStreams = new ArrayList<>(1);
     private final List<Path> mFiles = new ArrayList<>(1);
